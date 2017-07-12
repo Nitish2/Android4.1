@@ -1,0 +1,67 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:background="@color/LimeGreen"
+    tools:context="com.example.hp.loginid.MainActivity"
+    android:weightSum="1">
+
+
+    <EditText
+        android:id="@+id/editText"
+        android:layout_width="363dp"
+        android:layout_height="wrap_content"
+        android:ems="10"
+        android:layout_marginLeft="20dp"
+        android:layout_marginTop="100dp"
+        android:inputType="textPersonName"
+
+        android:background="@color/Snow"
+        android:hint="  Email Id "
+        android:fontFamily="sans-serif-condensed"
+        android:textSize="20dp"
+        />
+
+    <EditText
+        android:id="@+id/editText2"
+        android:layout_width="363dp"
+        android:layout_height="wrap_content"
+        android:ems="10"
+        android:layout_marginTop="5dp"
+        android:layout_marginLeft="20dp"
+        android:inputType="textPersonName"
+        android:hint="  Password"
+        android:fontFamily="sans-serif-condensed"
+        android:background="@color/Snow"
+        android:textSize="20dp"
+
+        />
+
+    <Button
+        android:id="@+id/button"
+        android:layout_width="363dp"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="20dp"
+        android:layout_marginTop="10dp"
+        android:hint="LOGIN"
+        android:textColorHint="@color/LimeGreen"
+        android:fontFamily="sans-serif-condensed"
+         />
+
+    <TextView
+        android:id="@+id/textView2"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Not a member ? Sign up now."
+        android:background="@color/LimeGreen"
+        android:textSize="11dp"
+        android:layout_marginTop="20dp"
+        android:textColor="@color/Snow"
+        android:textAlignment="center"
+        />
+
+
+</LinearLayout>
